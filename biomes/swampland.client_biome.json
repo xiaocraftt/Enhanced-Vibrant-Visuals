@@ -1,0 +1,25 @@
+{
+    "format_version": "1.21.70",
+    "minecraft:client_biome": {
+      "description": {
+        "identifier": "swampland"
+      },
+      "components": {
+        "minecraft:fog_appearance": {
+          "fog_identifier": "xc:swamp_fog"
+        },
+        "minecraft:water_appearance": {
+          "surface_color": "#4f6b63"
+        },
+        "minecraft:sky_color": {
+                  "sky_color": "#aeb7b3"
+              },
+              "minecraft:foliage_appearance": {
+                "color": "#3f4f3a"
+        },
+      "minecraft:grass_appearance": {
+           "color": "#3b4a38"
+              }
+      }
+    }
+  }

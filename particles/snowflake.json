@@ -1,0 +1,86 @@
+{
+  "format_version": "1.21.60",
+  "particle_effect": {
+    "description": {
+      "identifier": "minecraft:snowflake_particle",
+      "basic_render_parameters": {
+        "material": "particles_alpha",
+        "texture": "textures/particle/snowflake_atlas"
+      }
+    },
+    "components": {
+      "minecraft:emitter_initialization": {
+        "creation_expression": "v.gravity = -0.22; v.wind_strength = 2.0; v.drift_duration = 14; v.flutter_speed = 38; v.gust_strength = 1.2;"
+      },
+      "minecraft:emitter_rate_manual": {
+        "max_particles": 1000
+      },
+      "minecraft:emitter_lifetime_expression": {
+        "activation_expression": 1,
+        "expiration_expression": 0
+      },
+      "minecraft:emitter_shape_custom": {
+        "offset": [
+          "0.5 + math.random(-0.4, 0.4)",
+          1.2,
+          "0.5 + math.random(-0.4, 0.4)"
+        ],
+        "direction": [
+          "math.random(-0.3, 0.3)",
+          -0.6,
+          "math.random(-0.3, 0.3)"
+        ]
+      },
+      "minecraft:particle_lifetime_expression": {
+        "max_lifetime": "10 + v.particle_random_1 * 6"
+      },
+      "minecraft:particle_initial_spin": {
+        "rotation": "v.particle_random_2 * 360",
+        "rotation_rate": "math.random(-35, 35) * (v.particle_random_3 > 0.5 ? 1.2 : 0.8)"
+      },
+      "minecraft:particle_initial_speed": "math.random(1.6, 2.8)",
+      "minecraft:particle_motion_dynamic": {
+        "linear_acceleration": [
+          "math.cos(v.flutter_speed * v.particle_random_3 + v.particle_age * 1.8) * v.wind_strength * math.pow(math.min(v.drift_duration, v.particle_age) / v.drift_duration, 0.9) + math.sin(v.particle_age * 0.4 + v.particle_random_4 * 6.28) * v.gust_strength",
+          "v.gravity * (0.85 + v.particle_random_1 * 0.3) + math.sin(v.particle_age * 1.2 + v.particle_random_2 * 3.14) * 0.06",
+          "math.sin(v.flutter_speed * v.particle_random_3 + v.particle_age * 1.8) * v.wind_strength * math.pow(math.min(v.drift_duration, v.particle_age) / v.drift_duration, 0.9) + math.cos(v.particle_age * 0.4 + v.particle_random_4 * 6.28) * v.gust_strength"
+        ],
+        "linear_drag_coefficient": 1.8,
+        "rotation_acceleration": "math.lerp(-3.0, 3.0, v.particle_random_4) * (1 + math.sin(v.particle_age * 0.6) * 0.35)"
+      },
+      "minecraft:particle_motion_collision": {
+        "collision_drag": 8,
+        "collision_radius": 0.04,
+        "expire_on_contact": true
+      },
+      "minecraft:particle_appearance_billboard": {
+        "size": [
+          "math.lerp(0.12, 0.28, v.particle_random_1)",
+          "math.lerp(0.12, 0.28, v.particle_random_1)"
+        ],
+        "facing_camera_mode": "lookat_xyz",
+        "uv": {
+          "texture_width": 32,
+          "texture_height": 8,
+          "uv": [
+            "math.floor(v.particle_random_2 * 4) * 8",
+            0
+          ],
+          "uv_size": [
+            8,
+            8
+          ]
+        }
+      },
+      "minecraft:particle_appearance_tinting": {
+        "color": [
+          "math.lerp(0.90, 1.0, v.particle_random_3)",
+          "math.lerp(0.93, 1.0, v.particle_random_3)",
+          1.0,
+          "math.min(1.0, v.particle_age * 1.5) * math.lerp(0.85, 1.0, math.clamp((v.drift_duration - v.particle_age) / 2.5, 0, 1))"
+        ]
+      },
+      "minecraft:particle_appearance_lighting": {}
+    }
+  }
+}

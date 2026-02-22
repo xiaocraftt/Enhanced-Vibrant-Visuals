@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "snowflake_atlas",
+    "metalness_emissive_roughness": "snowflake_atlas_mer"
+  }
+}

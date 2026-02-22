@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "xc:nether_soul_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 20.0,
+        "fog_end": 185.0,
+        "fog_color": "#6f8fa3",
+        "render_distance_type": "fixed"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.32,
+          "uniform": true
+        },
+
+        "water": {
+          "max_density": 1.0,
+          "uniform": true
+        }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.025, 0.045, 0.075],
+          "absorption": [0.030, 0.045, 0.060]
+        },
+
+        "water": {
+          "scattering": [0.020, 0.030, 0.050],
+          "absorption": [0.025, 0.040, 0.060]
+        }
+      },
+
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.60
+        },
+        "water": {
+          "henyey_greenstein_g": 0.40
+        }
+      }
+    }
+  }
+}

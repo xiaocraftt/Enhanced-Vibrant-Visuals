@@ -1,0 +1,69 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "xc:mushroom_fog"
+    },
+
+    "distance": {
+      "air": {
+        "fog_start": 0.60,
+        "fog_end": 0.94,
+        "fog_color": "#e8d9f2",
+        "render_distance_type": "render"
+      },
+
+      "water": {
+        "fog_start": 0.15,
+        "fog_end": 0.48,
+        "fog_color": "#2b1f3a",
+        "render_distance_type": "render"
+      },
+
+      "weather": {
+        "fog_start": 0.80,
+        "fog_end": 1.00,
+        "fog_color": "#d6c6e3",
+        "render_distance_type": "render"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.0075,
+          "uniform": false,
+          "max_density_height": 66,
+          "zero_density_height": 155
+        },
+
+        "water": {
+          "max_density": 0.0026,
+          "uniform": true
+        },
+
+        "weather": {
+          "max_density": 0.085,
+          "uniform": true
+        }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.085, 0.070, 0.095],
+          "absorption": [0.050, 0.045, 0.060]
+        },
+
+        "water": {
+          "scattering": [0.010, 0.008, 0.014],
+          "absorption": [0.42, 0.18, 0.24]
+        },
+
+        "cloud": {
+          "scattering": [0.94, 0.92, 0.96],
+          "absorption": [0.88, 0.86, 0.90]
+        }
+      }
+    }
+  }
+}
