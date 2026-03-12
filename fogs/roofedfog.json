@@ -4,64 +4,79 @@
     "description": {
       "identifier": "xc:dark_forest_fog"
     },
-
     "distance": {
       "air": {
-        "fog_start": 0.50,
-        "fog_end": 0.85,
-        "fog_color": "#c8d2c4",
+        "fog_start": 0.48,
+        "fog_end": 0.86,
+        "fog_color": "#bec8ba",
         "render_distance_type": "render"
       },
-
       "water": {
         "fog_start": 0.14,
         "fog_end": 0.46,
         "fog_color": "#14261f",
         "render_distance_type": "render"
       },
-
       "weather": {
         "fog_start": 0.68,
-        "fog_end": 1.00,
-        "fog_color": "#aebbb0",
+        "fog_end": 1.0,
+        "fog_color": "#9aaa9c",
         "render_distance_type": "render"
       }
     },
-
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.013,
+          "max_density": 0.016,
           "uniform": false,
           "max_density_height": 52,
           "zero_density_height": 130
         },
-
         "water": {
           "max_density": 0.0032,
           "uniform": true
         },
-
         "weather": {
           "max_density": 0.14,
           "uniform": true
         }
       },
-
       "media_coefficients": {
         "air": {
-          "scattering": [0.065, 0.075, 0.060],
-          "absorption": [0.055, 0.065, 0.055]
+          "scattering": [
+            0.065,
+            0.075,
+            0.06
+          ],
+          "absorption": [
+            0.055,
+            0.065,
+            0.055
+          ]
         },
-
         "water": {
-          "scattering": [0.010, 0.014, 0.012],
-          "absorption": [0.46, 0.28, 0.20]
+          "scattering": [
+            0.01,
+            0.014,
+            0.012
+          ],
+          "absorption": [
+            0.46,
+            0.28,
+            0.2
+          ]
         },
-
         "cloud": {
-          "scattering": [0.90, 0.88, 0.85],
-          "absorption": [0.88, 0.86, 0.84]
+          "scattering": [
+            0.9,
+            0.88,
+            0.85
+          ],
+          "absorption": [
+            0.88,
+            0.86,
+            0.84
+          ]
         }
       }
     }

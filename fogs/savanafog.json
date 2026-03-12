@@ -2,66 +2,81 @@
   "format_version": "1.21.10",
   "minecraft:fog_settings": {
     "description": {
-      "identifier": "xc:sabzcnna_fog"
+      "identifier": "xc:savanna_fog"
     },
-
     "distance": {
       "air": {
-        "fog_start": 0.68,
+        "fog_start": 0.65,
         "fog_end": 0.97,
-        "fog_color": "#f0e2b8",
+        "fog_color": "#eede9e",
         "render_distance_type": "render"
       },
-
       "water": {
         "fog_start": 0.18,
         "fog_end": 0.48,
         "fog_color": "#26383a",
         "render_distance_type": "render"
       },
-
       "weather": {
         "fog_start": 0.74,
-        "fog_end": 1.00,
-        "fog_color": "#e6d3a2",
+        "fog_end": 1.0,
+        "fog_color": "#d8c48a",
         "render_distance_type": "render"
       }
     },
-
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.0042,
+          "max_density": 0.0055,
           "uniform": false,
           "max_density_height": 78,
           "zero_density_height": 180
         },
-
         "water": {
           "max_density": 0.0018,
           "uniform": true
         },
-
         "weather": {
-          "max_density": 0.060,
+          "max_density": 0.06,
           "uniform": true
         }
       },
-
       "media_coefficients": {
         "air": {
-          "scattering": [0.090, 0.080, 0.060],
-          "absorption": [0.032, 0.038, 0.045]
+          "scattering": [
+            0.09,
+            0.08,
+            0.06
+          ],
+          "absorption": [
+            0.032,
+            0.038,
+            0.045
+          ]
         },
-
         "water": {
-          "scattering": [0.006, 0.010, 0.012],
-          "absorption": [0.44, 0.24, 0.14]
+          "scattering": [
+            0.006,
+            0.01,
+            0.012
+          ],
+          "absorption": [
+            0.44,
+            0.24,
+            0.14
+          ]
         },
-
         "cloud": {
-          "scattering": [0.96, 0.92, 0.88],
-          "absorption": [0.88, 0.85, 0.82]
+          "scattering": [
+            0.96,
+            0.92,
+            0.88
+          ],
+          "absorption": [
+            0.88,
+            0.85,
+            0.82
+          ]
         }
       }
     }

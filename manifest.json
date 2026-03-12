@@ -2,17 +2,17 @@
   "format_version": 2,
   "header": {
     "description": "Enhances the default Vibrant Visuals with richer atmospherics, volumetric fog, PBR textures, lighting, and particles. Created By XiaoCraft.",
-    "name": "Enhanced Vibrant Visuals v1.0",
-    "uuid": "ee2a106a-3700-4c4a-a761-c1e0432afc39",
-    "version": [1, 0, 0],
+    "name": "Enhanced Vibrant Visuals v1.1",
+    "uuid": "b6c08f60-ca69-4b96-a5f9-8aaa07def12d",
+    "version": [1, 1, 0],
     "min_engine_version": [1, 21, 90]
   },
   "modules": [
     {
       "description": "Enhanced Vibrant Visuals Module",
       "type": "resources",
-      "uuid": "0c8c1825-a205-4d81-bde2-ce5096d56f85",
-      "version": [1, 0, 0]
+      "uuid": "03474a2d-ebf4-457a-bb4e-504c2b5b0918",
+      "version": [1, 1, 0]
    }
       ],
   "capabilities": [

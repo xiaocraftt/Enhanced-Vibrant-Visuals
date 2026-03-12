@@ -1,50 +1,52 @@
 {
-  "format_version": "1.21.90",
+  "format_version": "1.21.10",
   "minecraft:fog_settings": {
     "description": {
       "identifier": "xc:nether_basalt_fog"
     },
-
     "distance": {
       "air": {
         "fog_start": 16.0,
         "fog_end": 160.0,
-        "fog_color": "#2b2f33",
+        "fog_color": "#252830",
         "render_distance_type": "fixed"
       }
     },
-
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.40,
+          "max_density": 0.42,
           "uniform": true
         },
-
         "water": {
           "max_density": 1.0,
           "uniform": true
         }
       },
-
       "media_coefficients": {
         "air": {
-          "scattering": [0.030, 0.030, 0.030],
-          "absorption": [0.055, 0.060, 0.065]
-        },
-
-        "water": {
-          "scattering": [0.025, 0.025, 0.025],
-          "absorption": [0.040, 0.045, 0.050]
-        }
-      },
-
-      "henyey_greenstein_g": {
-        "air": {
-          "henyey_greenstein_g": 0.68
+          "scattering": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "absorption": [
+            0.055,
+            0.06,
+            0.065
+          ]
         },
         "water": {
-          "henyey_greenstein_g": 0.45
+          "scattering": [
+            0.025,
+            0.025,
+            0.025
+          ],
+          "absorption": [
+            0.04,
+            0.045,
+            0.05
+          ]
         }
       }
     }

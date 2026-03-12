@@ -4,64 +4,79 @@
     "description": {
       "identifier": "xc:jungle_fog"
     },
-
     "distance": {
       "air": {
-        "fog_start": 0.52,
-        "fog_end": 0.88,
-        "fog_color": "#d6efd2",
+        "fog_start": 0.58,
+        "fog_end": 0.9,
+        "fog_color": "#c8e8c0",
         "render_distance_type": "render"
       },
-
       "water": {
         "fog_start": 0.14,
         "fog_end": 0.46,
         "fog_color": "#0f2b24",
         "render_distance_type": "render"
       },
-
       "weather": {
         "fog_start": 0.72,
-        "fog_end": 1.00,
-        "fog_color": "#b8d6c2",
+        "fog_end": 1.0,
+        "fog_color": "#a8c8b0",
         "render_distance_type": "render"
       }
     },
-
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.012,
+          "max_density": 0.018,
           "uniform": false,
-          "max_density_height": 58,
+          "max_density_height": 62,
           "zero_density_height": 140
         },
-
         "water": {
-          "max_density": 0.0030,
+          "max_density": 0.003,
           "uniform": true
         },
-
         "weather": {
           "max_density": 0.12,
           "uniform": true
         }
       },
-
       "media_coefficients": {
         "air": {
-          "scattering": [0.075, 0.100, 0.070],
-          "absorption": [0.050, 0.065, 0.050]
+          "scattering": [
+            0.068,
+            0.098,
+            0.062
+          ],
+          "absorption": [
+            0.042,
+            0.058,
+            0.042
+          ]
         },
-
         "water": {
-          "scattering": [0.010, 0.014, 0.012],
-          "absorption": [0.46, 0.24, 0.18]
+          "scattering": [
+            0.01,
+            0.014,
+            0.012
+          ],
+          "absorption": [
+            0.46,
+            0.24,
+            0.18
+          ]
         },
-
         "cloud": {
-          "scattering": [0.92, 0.96, 0.90],
-          "absorption": [0.88, 0.90, 0.86]
+          "scattering": [
+            0.92,
+            0.96,
+            0.9
+          ],
+          "absorption": [
+            0.88,
+            0.9,
+            0.86
+          ]
         }
       }
     }
