@@ -9,22 +9,20 @@
       "orbital": {
         "sun": {
           "illuminance": {
-            "0.0": 260
+            "0.0": 95
           },
-          "color": [210, 185, 255]
+          "color": [185, 130, 248]
         },
-
         "moon": {
-          "illuminance": 180,
-          "color": [185, 190, 225]
+          "illuminance": 95,
+          "color": [255, 255, 255]
         },
-
-        "orbital_offset_degrees": 2.5
+        "orbital_offset_degrees": 4.0
       },
 
       "flash": {
-        "illuminance": 6.0,
-        "color": [160, 110, 255]
+        "illuminance": 12.0,
+        "color": [162, 55, 248]
       }
     },
 
@@ -33,12 +31,12 @@
     },
 
     "ambient": {
-      "illuminance": 0.42,
-      "color": [125, 85, 185]
+      "illuminance": 0.55,
+      "color": [155, 52, 210]
     },
 
     "sky": {
-      "intensity": 0.65
+      "intensity": 0.75
     }
   }
 }
