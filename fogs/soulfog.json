@@ -15,7 +15,7 @@
     "volumetric": {
       "density": {
         "air": {
-          "max_density": 0.4725,
+          "max_density": 0.5,
           "uniform": true
         },
         "water": {
@@ -26,14 +26,14 @@
       "media_coefficients": {
         "air": {
           "scattering": [
-            0.0363,
-            0.0792,
-            0.132
+            0.024,
+            0.052,
+            0.088
           ],
           "absorption": [
-            0.03,
-            0.045,
-            0.06
+            0.025,
+            0.038,
+            0.052
           ]
         },
         "water": {
