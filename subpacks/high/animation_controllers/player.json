@@ -1,0 +1,92 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.xiaocraft.evv.meteors": {
+            "initial_state": "await_overworld",
+            "states": {
+                "await_overworld": {
+                    "transitions": [
+                        {
+                            "night_watch": "v.in_overworld"
+                        }
+                    ]
+                },
+                "not_in_overworld": {
+                    "transitions": [
+                        {
+                            "await_overworld": "v.in_overworld"
+                        }
+                    ]
+                },
+                "night_watch": {
+                    "transitions": [
+                        {
+                            "not_in_overworld": "!v.in_overworld"
+                        },
+                        {
+                            "roll_event": "q.time_of_day > 0.75 || q.time_of_day < 0.25"
+                        }
+                    ]
+                },
+                "roll_event": {
+                    "transitions": [
+                        {
+                            "not_in_overworld": "!v.in_overworld"
+                        },
+                        {
+                            "meteor_storm": "math.mod(math.floor(q.day), 5) == 0"
+                        },
+                        {
+                            "solo_wait": "(1.0)"
+                        }
+                    ]
+                },
+                "solo_wait": {
+                    "on_entry": [
+                        "v.wait_time = math.random_integer(3, 8);"
+                    ],
+                    "transitions": [
+                        {
+                            "not_in_overworld": "!v.in_overworld"
+                        },
+                        {
+                            "night_watch": "q.time_of_day > 0.25 && q.time_of_day < 0.75"
+                        },
+                        {
+                            "play_solo": "q.state_time > v.wait_time"
+                        }
+                    ]
+                },
+                "play_solo": {
+                    "animations": [
+                        "a.evv_meteor_solo"
+                    ],
+                    "transitions": [
+                        {
+                            "not_in_overworld": "!v.in_overworld"
+                        },
+                        {
+                            "night_watch": "q.time_of_day > 0.25 && q.time_of_day < 0.75"
+                        },
+                        {
+                            "solo_wait": "q.all_animations_finished"
+                        }
+                    ]
+                },
+                "meteor_storm": {
+                    "animations": [
+                        "a.evv_meteor_storm"
+                    ],
+                    "transitions": [
+                        {
+                            "not_in_overworld": "!v.in_overworld"
+                        },
+                        {
+                            "night_watch": "q.time_of_day > 0.25 && q.time_of_day < 0.75"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

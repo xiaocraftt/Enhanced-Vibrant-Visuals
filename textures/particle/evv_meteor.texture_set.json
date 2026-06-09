@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "evv_meteor",
+		"metalness_emissive_roughness": "evv_meteor_mer"
+	}
+}

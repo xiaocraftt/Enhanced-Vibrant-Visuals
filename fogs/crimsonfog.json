@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.21.90",
   "minecraft:fog_settings": {
     "description": {
       "identifier": "xc:nether_crimson_fog"
@@ -47,6 +47,14 @@
             0.03,
             0.045
           ]
+        }
+      },
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.5
+        },
+        "water": {
+          "henyey_greenstein_g": 0.45
         }
       }
     }

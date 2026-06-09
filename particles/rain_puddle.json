@@ -63,7 +63,7 @@
         "minecraft:small_dripleaf_block"
       ],
       "minecraft:particle_appearance_tinting": {
-        "color": [1.0, 1.0, 1.0, 0.8]
+        "color": [1.0, 1.0, 1.0, 0.7]
       },
       "minecraft:particle_appearance_lighting": {}
     }

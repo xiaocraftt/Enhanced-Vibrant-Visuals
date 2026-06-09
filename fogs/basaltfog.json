@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.10",
+  "format_version": "1.21.90",
   "minecraft:fog_settings": {
     "description": {
       "identifier": "xc:nether_basalt_fog"
@@ -47,6 +47,14 @@
             0.045,
             0.05
           ]
+        }
+      },
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.55
+        },
+        "water": {
+          "henyey_greenstein_g": 0.45
         }
       }
     }

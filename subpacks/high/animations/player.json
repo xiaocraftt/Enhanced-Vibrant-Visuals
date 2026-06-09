@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.xiaocraft.evv.meteor_solo": {
+            "loop": true,
+            "animation_length": 10,
+            "particle_effects": {
+                "0.0": {
+                    "effect": "evv_meteor_solo"
+                }
+            }
+        },
+        "animation.xiaocraft.evv.meteor_storm": {
+            "loop": true,
+            "animation_length": 10,
+            "particle_effects": {
+                "0.0": {
+                    "effect": "evv_meteor_storm"
+                }
+            }
+        }
+    }
+}

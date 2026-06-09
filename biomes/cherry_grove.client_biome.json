@@ -13,15 +13,6 @@
       },
       "minecraft:sky_color": {
         "sky_color": "#D4A8D8"
-      },
-      "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "xc:cherry_atmosphere"
-      },
-      "minecraft:lighting_identifier": {
-        "lighting_identifier": "xc:cherry_lighting"
-      },
-      "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "xc:cherry_color_grading"
       }
     }
   }
