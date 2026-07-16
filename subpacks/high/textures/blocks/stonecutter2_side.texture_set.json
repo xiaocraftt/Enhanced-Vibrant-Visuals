@@ -1,8 +1,9 @@
-{
-   "format_version": "1.16.100",
-   "minecraft:texture_set": {
-      "color": "stonecutter2_side",
-      "metalness_emissive_roughness": "stonecutter2_side_mer",
-      "heightmap": "stonecutter2_side_normal"
-   }
-}   
+﻿{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "stonecutter2_side",
+        "metalness_emissive_roughness_subsurface": "stonecutter2_side_mers",
+        "heightmap": "stonecutter2_side_re"
+    }
+}
+

@@ -1,8 +1,9 @@
-{
-   "format_version": "1.21.30",
-   "minecraft:texture_set": {
-      "color": "crying_obsidian",
-      "metalness_emissive_roughness": "crying_obsidian_mer"
-   }
-}  
+﻿{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "crying_obsidian",
+        "metalness_emissive_roughness_subsurface": "crying_obsidian_mers",
+        "heightmap": "crying_obsidian_re"
+    }
+}
 

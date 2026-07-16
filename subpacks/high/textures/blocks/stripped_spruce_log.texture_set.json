@@ -1,8 +1,9 @@
-{
+﻿{
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "stripped_spruce_log",
-        "metalness_emissive_roughness": "stripped_spruce_log_mer",
-        "heightmap": "stripped_spruce_log_heightmap"
+        "metalness_emissive_roughness_subsurface": "stripped_spruce_log_mers",
+        "heightmap": "stripped_spruce_log_re"
     }
-}     
+}
+

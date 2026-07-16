@@ -1,10 +1,9 @@
-{
+﻿{
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "lectern_sides",
-        "metalness_emissive_roughness": "lectern_sides_mer",
-        "heightmap": "lectern_sides_heightmap"
+        "metalness_emissive_roughness_subsurface": "lectern_sides_mers",
+        "heightmap": "lectern_sides_re"
     }
-}  
-
+}
 

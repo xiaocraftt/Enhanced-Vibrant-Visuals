@@ -6,7 +6,7 @@
       },
       "components": {
         "minecraft:fog_appearance": {
-          "fog_identifier": "xc:pale_garden_fog"
+          "fog_identifier": "xc:pale_fog"
         },
         "minecraft:water_appearance": {
           "surface_color": "#6F8E9C"

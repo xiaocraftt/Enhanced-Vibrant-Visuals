@@ -2,7 +2,8 @@
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "gold_2",
-        "metalness_emissive_roughness": "gold_2_mer",
-        "heightmap": "gold_2_heightmap"
+        "metalness_emissive_roughness_subsurface": "gold_2_mers",
+        "heightmap": "gold_2_re"
     }
-}       
+}
+

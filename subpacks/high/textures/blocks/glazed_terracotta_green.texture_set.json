@@ -1,10 +1,9 @@
-{
+﻿{
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "glazed_terracotta_green",
-        "metalness_emissive_roughness": "glazed_terracotta_green_mer",
-        "heightmap": "glazed_terracotta_green_heightmap"
+        "metalness_emissive_roughness_subsurface": "glazed_terracotta_green_mers",
+        "heightmap": "glazed_terracotta_green_re"
     }
-}       
-
+}
 

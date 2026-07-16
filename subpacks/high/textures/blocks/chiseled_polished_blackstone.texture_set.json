@@ -1,10 +1,9 @@
-{
+﻿{
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "chiseled_polished_blackstone",
-        "metalness_emissive_roughness": "chiseled_polished_blackstone_mer",
-        "heightmap": "chiseled_polished_blackstone_heightmap"
+        "metalness_emissive_roughness_subsurface": "chiseled_polished_blackstone_mers",
+        "heightmap": "chiseled_polished_blackstone_re"
     }
-}     
-
+}
 

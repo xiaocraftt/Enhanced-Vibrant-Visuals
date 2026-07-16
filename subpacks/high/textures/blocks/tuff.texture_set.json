@@ -1,9 +1,9 @@
-{
+﻿{
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "tuff",
-        "metalness_emissive_roughness": "tuff_mer",
-        "heightmap": "tuff_heightmap"
+        "metalness_emissive_roughness_subsurface": "tuff_mers",
+        "heightmap": "tuff_re"
     }
-}   
+}
 
