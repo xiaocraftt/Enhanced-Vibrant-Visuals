@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "chiseled_polished_blackstone",
         "metalness_emissive_roughness_subsurface": "chiseled_polished_blackstone_mers",
-        "heightmap": "chiseled_polished_blackstone_re"
+        "heightmap": "chiseled_polished_blackstone_heightmap"
     }
 }
-

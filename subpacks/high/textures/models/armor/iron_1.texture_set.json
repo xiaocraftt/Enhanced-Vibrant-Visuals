@@ -1,9 +1,8 @@
-{
+﻿{
     "format_version": "1.21.30",
     "minecraft:texture_set": {
         "color": "iron_1",
         "metalness_emissive_roughness_subsurface": "iron_1_mers",
-        "heightmap": "iron_1_re"
+        "heightmap": "iron_1_heightmap"
     }
 }
-

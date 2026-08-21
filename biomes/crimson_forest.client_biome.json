@@ -9,21 +9,17 @@
         "fog_identifier": "xc:nether_crimson_fog"
       },
       "minecraft:sky_color": {
-        "sky_color": "#8b1e2d"
+        "sky_color": "#6E1E58"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "xc:nether_atmosphere"
+        "atmosphere_identifier": "xc:nether_crimson_atmosphere"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "xc:nether_lighting"
-      },
-      "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "xc:nether_color_grading"
+        "lighting_identifier": "xc:nether_crimson_lighting"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#5a1f25"
+        "surface_color": "#4A1C40"
       }
     }
   }
 }
-

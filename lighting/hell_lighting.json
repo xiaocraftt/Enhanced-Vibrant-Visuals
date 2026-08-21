@@ -4,29 +4,54 @@
     "description": {
       "identifier": "xc:nether_lighting"
     },
-
     "directional_lights": {
       "sun": {
         "illuminance": {
-          "0.0": 90
+          "0.0": 100.0,
+          "1.0": 100.0
         },
-        "color": [255, 140, 20]
+        "color": {
+          "0.0": [
+            255,
+            200,
+            86
+          ],
+          "1.0": [
+            255,
+            200,
+            86
+          ]
+        }
       },
       "moon": {
         "illuminance": {
-          "0.0": 90
+          "0.0": 100.0,
+          "1.0": 100.0
         },
-        "color": [255, 255, 255]
+        "color": {
+          "0.0": [
+            255,
+            255,
+            255
+          ],
+          "1.0": [
+            255,
+            255,
+            255
+          ]
+        }
       }
     },
-
     "ambient": {
       "illuminance": 1.0,
-      "color": [210, 85, 30]
+      "color": [
+        226,
+        166,
+        54
+      ]
     },
-
     "sky": {
-      "intensity": 0.60
+      "intensity": 0.5
     }
   }
 }

@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "cloth_1",
         "metalness_emissive_roughness_subsurface": "cloth_1_mers",
-        "heightmap": "cloth_1_re"
+        "heightmap": "cloth_1_heightmap"
     }
 }
-

@@ -1,7 +1,1 @@
-{
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "weather",
-		"metalness_emissive_roughness": [32,0,0]
-	}
-}
+{"format_version":"1.21.30","minecraft:texture_set":{"color":"weather","metalness_emissive_roughness_subsurface":"weather_mers"}}

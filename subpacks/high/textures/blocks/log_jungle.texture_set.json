@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "log_jungle",
         "metalness_emissive_roughness_subsurface": "log_jungle_mers",
-        "heightmap": "log_jungle_re"
+        "heightmap": "log_jungle_heightmap"
     }
 }
-

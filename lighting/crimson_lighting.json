@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "xc:nether_crimson_lighting"
+    },
+    "directional_lights": {
+      "sun": {
+        "illuminance": {
+          "0.0": 100.0,
+          "1.0": 100.0
+        },
+        "color": {
+          "0.0": [
+            236,
+            96,
+            206
+          ],
+          "1.0": [
+            236,
+            96,
+            206
+          ]
+        }
+      },
+      "moon": {
+        "illuminance": {
+          "0.0": 100.0,
+          "1.0": 100.0
+        },
+        "color": {
+          "0.0": [
+            255,
+            255,
+            255
+          ],
+          "1.0": [
+            255,
+            255,
+            255
+          ]
+        }
+      }
+    },
+    "ambient": {
+      "illuminance": 1.0,
+      "color": [
+        198,
+        62,
+        162
+      ]
+    },
+    "sky": {
+      "intensity": 0.56
+    }
+  }
+}

@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "tuff",
         "metalness_emissive_roughness_subsurface": "tuff_mers",
-        "heightmap": "tuff_re"
+        "heightmap": "tuff_heightmap"
     }
 }
-

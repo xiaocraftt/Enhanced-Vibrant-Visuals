@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "deepslate",
         "metalness_emissive_roughness_subsurface": "deepslate_mers",
-        "heightmap": "deepslate_re"
+        "heightmap": "deepslate_heightmap"
     }
 }
-

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.80",
+  "format_version": "1.26.0",
   "minecraft:lighting_settings": {
     "description": {
       "identifier": "xc:taiga_lighting"
@@ -160,7 +160,10 @@
       ]
     },
     "sky": {
-      "intensity": 0.52
+      "intensity": {
+        "0.000": 0.52,
+        "1.000": 0.52
+      }
     },
     "sun_rays": {
       "enabled": true,

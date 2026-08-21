@@ -2,17 +2,17 @@
   "format_version": 2,
   "header": {
     "description": "Enhances the default Vibrant Visuals with richer atmospherics, volumetric fog, PBR textures, lighting, and particles. By XiaoCraft.",
-    "name": "Enhanced Vibrant Visuals v1.7",
-    "uuid": "b5c3a422-b06f-4611-98a9-06efcfd2c238",
-    "version": [1, 7, 0],
+    "name": "Enhanced Vibrant Visuals v1.9",
+    "uuid": "b4610d6d-8467-4ecf-bee5-5687272c2d39",
+    "version": [1, 9, 0],
     "min_engine_version": [1, 21, 120]
   },
   "modules": [
     {
       "description": "Enhanced Vibrant Visuals Module",
       "type": "resources",
-      "uuid": "a8d18935-ff73-474c-b990-492caf42a0c1",
-      "version": [1, 7, 0]
+      "uuid": "8dcf3002-195b-4c36-9f78-0635f86de114",
+      "version": [1, 9, 0]
    }
       ],
   "capabilities": [
@@ -21,14 +21,13 @@
   "subpacks": [
     {
       "folder_name": "default",
-      "name": "RESOLUTION DEFAULT",
+      "name": "Resolution Default",
       "memory_tier": 1
     },
     {
       "folder_name": "high",
-      "name": "RESOLUTION HIGH",
+      "name": "Resolution 32x",
       "memory_tier": 2
     }
   ]
 }
-

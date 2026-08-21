@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "copper_1",
         "metalness_emissive_roughness_subsurface": "copper_1_mers",
-        "heightmap": "copper_1_re"
+        "heightmap": "copper_1_heightmap"
     }
 }
-

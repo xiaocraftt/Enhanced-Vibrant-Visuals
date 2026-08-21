@@ -4,39 +4,71 @@
     "description": {
       "identifier": "xc:end_lighting"
     },
-
     "directional_lights": {
       "orbital": {
         "sun": {
           "illuminance": {
-            "0.0": 95
+            "0.0": 440,
+            "1.0": 440
           },
-          "color": [185, 130, 248]
+          "color": {
+            "0.0": [
+              255,
+              246,
+              255
+            ],
+            "1.0": [
+              255,
+              246,
+              255
+            ]
+          }
         },
         "moon": {
-          "illuminance": 95,
-          "color": [255, 255, 255]
+          "illuminance": {
+            "0.0": 440,
+            "1.0": 440
+          },
+          "color": {
+            "0.0": [
+              248,
+              240,
+              255
+            ],
+            "1.0": [
+              248,
+              240,
+              255
+            ]
+          }
         },
-        "orbital_offset_degrees": 4.0
+        "orbital_offset_degrees": {
+          "0.0": 0,
+          "1.0": 0
+        }
       },
-
       "flash": {
-        "illuminance": 12.0,
-        "color": [162, 55, 248]
+        "illuminance": 6.0,
+        "color": [
+          210,
+          130,
+          244
+        ]
       }
     },
-
     "emissive": {
-      "desaturation": 0.08
+      "desaturation": 0.05
     },
-
     "ambient": {
-      "illuminance": 0.55,
-      "color": [155, 52, 210]
+      "illuminance": 1.15,
+      "color": [
+        186,
+        96,
+        226
+      ]
     },
-
     "sky": {
-      "intensity": 0.75
+      "intensity": 1.0
     }
   }
 }

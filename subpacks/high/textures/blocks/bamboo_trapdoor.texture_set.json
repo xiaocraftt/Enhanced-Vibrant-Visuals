@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "bamboo_trapdoor",
         "metalness_emissive_roughness_subsurface": "bamboo_trapdoor_mers",
-        "heightmap": "bamboo_trapdoor_re"
+        "heightmap": "bamboo_trapdoor_heightmap"
     }
 }
-

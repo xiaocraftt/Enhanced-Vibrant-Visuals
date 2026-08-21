@@ -6,24 +6,20 @@
     },
     "components": {
       "minecraft:fog_appearance": {
-        "fog_identifier": "xc:nether_basalt_fog"
+        "fog_identifier": "xc:basalt_fog"
       },
       "minecraft:sky_color": {
-        "sky_color": "#3a3a3a"
+        "sky_color": "#6E7280"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "xc:nether_atmosphere"
+        "atmosphere_identifier": "xc:basalt_atmosphere"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "xc:nether_lighting"
-      },
-      "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "xc:nether_color_grading"
+        "lighting_identifier": "xc:basalt_lighting"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#2a2a2a"
+        "surface_color": "#4A4A52"
       }
     }
   }
 }
-

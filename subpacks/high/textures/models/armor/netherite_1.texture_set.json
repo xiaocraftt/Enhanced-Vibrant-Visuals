@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "netherite_1",
         "metalness_emissive_roughness_subsurface": "netherite_1_mers",
-        "heightmap": "netherite_1_re"
+        "heightmap": "netherite_1_heightmap"
     }
 }
-

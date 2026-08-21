@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "crimson_trapdoor",
         "metalness_emissive_roughness_subsurface": "crimson_trapdoor_mers",
-        "heightmap": "crimson_trapdoor_re"
+        "heightmap": "crimson_trapdoor_heightmap"
     }
 }
-

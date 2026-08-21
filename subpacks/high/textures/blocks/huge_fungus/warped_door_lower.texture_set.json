@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "warped_door_lower",
         "metalness_emissive_roughness_subsurface": "warped_door_lower_mers",
-        "heightmap": "warped_door_lower_re"
+        "heightmap": "warped_door_lower_heightmap"
     }
 }
-

@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "crimson_planks",
         "metalness_emissive_roughness_subsurface": "crimson_planks_mers",
-        "heightmap": "crimson_planks_re"
+        "heightmap": "crimson_planks_heightmap"
     }
 }
-

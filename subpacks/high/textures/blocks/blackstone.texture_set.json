@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "blackstone",
         "metalness_emissive_roughness_subsurface": "blackstone_mers",
-        "heightmap": "blackstone_re"
+        "heightmap": "blackstone_heightmap"
     }
 }
-

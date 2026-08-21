@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "chain_1",
         "metalness_emissive_roughness_subsurface": "chain_1_mers",
-        "heightmap": "chain_1_re"
+        "heightmap": "chain_1_heightmap"
     }
 }
-

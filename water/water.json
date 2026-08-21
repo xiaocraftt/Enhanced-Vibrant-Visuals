@@ -6,36 +6,32 @@
     },
 
     "particle_concentrations": {
-      "chlorophyll": 0.0022,
-      "suspended_sediment": 0.68,
-      "cdom": 1.85
+      "chlorophyll": 0.0025,
+      "suspended_sediment": 0.702,
+      "cdom": 1.79
     },
 
     "caustics": {
       "enabled": true,
-      "frame_length": 0.028,
+      "frame_length": 0.056,
       "texture": "textures/caustics/caustics.png",
-      "scale": 0.16,
-      "power": 1.25
+      "scale": 0.26,
+      "power": 1.28
     },
 
     "waves": {
       "enabled": true,
-
-      "frequency": 0.92,
+      "frequency": 0.945,
       "octaves": 14,
-      "depth": 0.045,
-      "sampleWidth": 0.14,
-
-      "speed": 1.55,
-      "pull": 0.28,
-      "mix": 0.22,
-
-      "frequency_scaling": 1.18,
-      "speed_scaling": 1.06,
-
-      "direction_increment": 72,
-      "shape": 2.85
+      "depth": 0.0435,
+      "sampleWidth": 0.1355,
+      "speed": 1.52,
+      "pull": 0.272,
+      "mix": 0.228,
+      "frequency_scaling": 1.176,
+      "speed_scaling": 1.058,
+      "direction_increment": 144,
+      "shape": 2.79
     }
   }
 }

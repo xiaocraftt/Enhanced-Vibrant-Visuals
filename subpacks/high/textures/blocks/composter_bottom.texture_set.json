@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "composter_bottom",
         "metalness_emissive_roughness_subsurface": "composter_bottom_mers",
-        "heightmap": "composter_bottom_re"
+        "heightmap": "composter_bottom_heightmap"
     }
 }
-

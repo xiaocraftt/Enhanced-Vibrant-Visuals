@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.80",
+  "format_version": "1.26.0",
   "minecraft:lighting_settings": {
     "description": {
       "identifier": "xc:global_lighting"
@@ -191,7 +191,10 @@
       ]
     },
     "sky": {
-      "intensity": 0.44
+      "intensity": {
+        "0.000": 0.44,
+        "1.000": 0.44
+      }
     },
     "sun_rays": {
       "enabled": true,

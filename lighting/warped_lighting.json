@@ -4,25 +4,54 @@
     "description": {
       "identifier": "xc:nether_warped_lighting"
     },
-
     "directional_lights": {
       "sun": {
-        "illuminance": { "0.0": 90 },
-        "color": [255, 140, 20]
+        "illuminance": {
+          "0.0": 100.0,
+          "1.0": 100.0
+        },
+        "color": {
+          "0.0": [
+            96,
+            226,
+            170
+          ],
+          "1.0": [
+            96,
+            226,
+            170
+          ]
+        }
       },
       "moon": {
-        "illuminance": { "0.0": 90 },
-        "color": [255, 255, 255]
+        "illuminance": {
+          "0.0": 100.0,
+          "1.0": 100.0
+        },
+        "color": {
+          "0.0": [
+            255,
+            255,
+            255
+          ],
+          "1.0": [
+            255,
+            255,
+            255
+          ]
+        }
       }
     },
-
     "ambient": {
       "illuminance": 1.0,
-      "color": [40, 165, 155]
+      "color": [
+        48,
+        150,
+        112
+      ]
     },
-
     "sky": {
-      "intensity": 1.0
+      "intensity": 0.6
     }
   }
 }

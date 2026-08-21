@@ -5,23 +5,23 @@
       "identifier": "the_end"
     },
     "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#A05CC8"
+      },
       "minecraft:fog_appearance": {
         "fog_identifier": "xc:end_fog"
-      },
-      "minecraft:sky_color": {
-        "sky_color": "#4A1575"
-      },
-      "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "xc:end_atmosphere"
-      },
-      "minecraft:lighting_identifier": {
-        "lighting_identifier": "xc:end_lighting"
       },
       "minecraft:color_grading_identifier": {
         "color_grading_identifier": "xc:end_color_grading"
       },
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "xc:end_atmospherics"
+      },
+      "minecraft:lighting_identifier": {
+        "lighting_identifier": "xc:end_lighting"
+      },
       "minecraft:water_appearance": {
-        "surface_color": "#3B1260"
+        "surface_color": "#7A5CB8"
       }
     }
   }

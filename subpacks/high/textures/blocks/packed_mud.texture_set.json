@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "packed_mud",
         "metalness_emissive_roughness_subsurface": "packed_mud_mers",
-        "heightmap": "packed_mud_re"
+        "heightmap": "packed_mud_heightmap"
     }
 }
-

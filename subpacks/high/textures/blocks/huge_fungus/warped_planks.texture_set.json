@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "warped_planks",
         "metalness_emissive_roughness_subsurface": "warped_planks_mers",
-        "heightmap": "warped_planks_re"
+        "heightmap": "warped_planks_heightmap"
     }
 }
-

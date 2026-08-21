@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "stone_granite_smooth",
         "metalness_emissive_roughness_subsurface": "stone_granite_smooth_mers",
-        "heightmap": "stone_granite_smooth_re"
+        "heightmap": "stone_granite_smooth_heightmap"
     }
 }
-

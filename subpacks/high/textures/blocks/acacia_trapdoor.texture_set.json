@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "acacia_trapdoor",
         "metalness_emissive_roughness_subsurface": "acacia_trapdoor_mers",
-        "heightmap": "acacia_trapdoor_re"
+        "heightmap": "acacia_trapdoor_heightmap"
     }
 }
-

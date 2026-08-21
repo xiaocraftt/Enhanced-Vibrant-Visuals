@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "sea_lantern",
         "metalness_emissive_roughness_subsurface": "sea_lantern_mers",
-        "heightmap": "sea_lantern_re"
+        "heightmap": "sea_lantern_heightmap"
     }
 }
-

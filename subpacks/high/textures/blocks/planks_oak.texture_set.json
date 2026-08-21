@@ -3,7 +3,6 @@
     "minecraft:texture_set": {
         "color": "planks_oak",
         "metalness_emissive_roughness_subsurface": "planks_oak_mers",
-        "heightmap": "planks_oak_re"
+        "heightmap": "planks_oak_heightmap"
     }
 }
-

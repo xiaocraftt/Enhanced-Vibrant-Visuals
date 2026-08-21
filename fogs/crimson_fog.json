@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "xc:nether_crimson_fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 28.0,
+        "fog_end": 180.0,
+        "fog_color": "#8E2A72",
+        "render_distance_type": "fixed"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.45,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "air": {
+          "scattering": [
+            0.05,
+            0.012,
+            0.044
+          ],
+          "absorption": [
+            0.002,
+            0.032,
+            0.004
+          ]
+        }
+      },
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.31
+        }
+      }
+    }
+  }
+}
